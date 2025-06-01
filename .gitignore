@@ -1,0 +1,40 @@
+# Data files
+*.geojson
+*.nc
+vector_tiles/
+**/tiles/
+**/g_tiles/
+**/g_tiles_rbf/
+**/groundwater_tiles/
+
+# Node.js / React
+node_modules/
+/frontend/build/
+/frontend/.env
+/frontend/.env.local
+/frontend/.env.development.local
+/frontend/.env.test.local
+/frontend/.env.production.local
+/frontend/coverage/
+/frontend/npm-debug.log*
+/frontend/yarn-debug.log*
+/frontend/yarn-error.log*
+
+# IDEs and editors
+.idea/
+.vscode/
+*.swp
+*.swo
+*.swn
+.DS_Store
+Thumbs.db
+
+# Dependencies
+/frontend/package-lock.json
+/frontend/yarn.lock
+
+# Temporary files
+*.log
+*.tmp
+temp/
+tmp/
